@@ -1,5 +1,3 @@
-
-
 function mean(score) {
 
     let average =0;
