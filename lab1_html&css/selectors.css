@@ -1,0 +1,96 @@
+/* ------Q1----- */
+h2 {
+    color: purple;
+}
+/* ------Q2----- */
+
+body {
+    background-color: #bdc3c7;
+}
+/* ------Q3----- */
+
+h1 {
+    color: #9b59b6;
+}
+/* ------Q4----- */
+
+h2 {
+    color: orange;
+}
+/* ------Q5----- */
+
+li {
+    color: blue;
+}
+/* ------Q6----- */
+
+p {
+    background-color: yellow;
+}
+/* ------Q7----- */
+input {
+    border: 3px solid red;
+}
+/* ------Q8----- */
+.hello {
+    background-color: pink;
+}
+/* ------Q9----- */
+
+#special {
+    border: 2px solid blue;
+}
+/* ------Q10----- */
+
+div p {
+    font-size:25px
+}
+/* ------Q11----- */
+
+[type='text'] {
+    background-color: gray;
+}
+/* ------Q12----- */
+
+div:nth-of-type(3) p{
+    background-color: pink;
+}
+/* ------Q13----- */
+
+div:nth-of-type(3) p:nth-of-type(2){
+    border: 5px solid white;
+}
+/* ------Q14----- */
+
+div:nth-of-type(3) em {
+    font-size: 20px;
+
+}
+/* ------Q15----- */
+
+input:checked {
+    margin-left: 50px;
+}
+/* ------Q16----- */
+
+label {
+    text-transform:uppercase ;
+}
+/* ------Q17----- */
+
+#special::first-letter {
+    color: green;
+    font-size: 100px;
+
+}
+/* ------Q18----- */
+
+h1:hover {
+    color: red;
+}
+
+/* ------Q19----- */
+
+a:visited {
+    color: gray;
+}
