@@ -1,0 +1,150 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .app-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #333;
+    text-align: center;
+    border: 5px solid orange;
+  }
+  
+  .new-task-form {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+  }
+  .task-description ,
+  .task-name {
+    width: 300px;
+    padding: 12px;
+    background-color: orange;
+    color: white;
+    border: white;
+    border-radius: 4px;
+    font-size: 22px;
+  }
+  .task-description-label,
+  .task-name-label{
+    font-size: 25px;
+    color: #007bff;
+  }
+  .btn-task{
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 60px;
+    border: transparent;
+    border-radius: 4px;
+    font-size: 19px;
+    margin-top: 24px;
+    
+  }
+  .task-list-container {
+    display: grid;
+    gap: 20px;
+  }
+  
+  .task-container {
+    border: 1px solid #ccc;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .task-header-result{
+    font-size: 24px;
+    width: 150px;
+
+  }
+  .task-header-description{
+    font-size: 19px;
+    width: 300px;
+    
+
+  }
+  
+  .task-actions {
+    display: flex;
+  }
+  
+  .task-actions button {
+    margin-left: 5px;
+    cursor: pointer;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
+  
+  .task-description {
+    /* color: #555; */
+    margin-bottom: 10px;
+  }
+  .btn-delete-task{
+    -background-color: red;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    border-radius: 3px;
+  }
+  .toggle-subtasks-btn {
+    background-color: blue;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .subtask-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .subtask-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background-color: #f9f9f9;
+  }
+  
+  .subtask-list input {
+    margin-right: 5px;
+  }
+  
+  .subtask-done {
+    text-decoration: line-through;
+    color: #777;
+  }
+  
+  .subtask-form {
+    margin-top: 10px;
+  }
+  
+  .subtask-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
